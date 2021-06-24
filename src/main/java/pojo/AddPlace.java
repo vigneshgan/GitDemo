@@ -4,7 +4,7 @@ import java.util.List;
 
 public class AddPlace {
 	
-	private Location location;
+	private String location;
 	private int accuracy;
 	private String name;
 	private String phone_number;
@@ -14,10 +14,10 @@ public class AddPlace {
 	private String language;
 	
 	
-	public Location getLocation() {
+	public String getLocation() {
 		return location;
 	}
-	public void setLocation(Location location) {
+	public void setLocation(String location) {
 		this.location = location;
 	}
 	public int getAccuracy() {
